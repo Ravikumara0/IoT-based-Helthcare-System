@@ -58,7 +58,7 @@ The system is **wearable**, **portable**, and can function in **rural or mobile 
 
 📡 **System Architecture:**
 
-![System Architecture](images/system_architecture.png)
+![System Architecture](system_architecture.png)
 
 ```
 [Patient Sensors] --> [Arduino Mega + ESP8266] --> [AWS IoT Core]
@@ -76,8 +76,8 @@ The system is **wearable**, **portable**, and can function in **rural or mobile 
 - Portable prototype tested in a lab with consistent operation on battery.
 - System demonstrated efficiency in remote monitoring without physical intervention.
 
-![ECG Reading Output](images/ecg_output_lcd.jpg)
-![MQTT Alert Screenshot](images/mqtt_alert.png)
+![ECG Reading Output](./ecg_output_lcd.jpg)
+![MQTT Alert Screenshot](./mqtt_alert.png)
 
 ---
 
@@ -90,13 +90,6 @@ The system is **wearable**, **portable**, and can function in **rural or mobile 
 - 🔋 Improve battery life using sleep modes or solar charging.
 - 🏥 Connect with hospital management systems for full EHR integration.
 
-![Mobile App UI Mockup](images/mobile_app_concept.png)
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
